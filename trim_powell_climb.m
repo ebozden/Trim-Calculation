@@ -1,7 +1,3 @@
-% powell_trim_climb.m
-% Steady climb trim using Powell's method + Golden Section line search
-% Uses EOMsclimb.m (handles gamma input for flight path angle)
-
 function trim_powell_climb()
     % Initial guess [Thrust (lbf); Elevator deflection (deg); Angle of attack (rad)]
     x0 = [2; 0; 0.1];             % [T; delta_e; alpha]
