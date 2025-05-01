@@ -1,7 +1,3 @@
-% powell_trim_turn.m
-% Steady bank-angle turn trim using Powell's method + Golden Section line search
-% Requires EOMsturn.m in the MATLAB path (handles mu, delta_e, delta_a, delta_r, alpha inputs)
-
 function trim_powell_turn()
     % Initial guess [Thrust; Elevator defl; Aileron defl; Rudder defl; AoA]
     x0 = [2; 0; 0; 0; 0.1];    % [T (lbf); δe (deg); δa (deg); δr (deg); α (rad)]
