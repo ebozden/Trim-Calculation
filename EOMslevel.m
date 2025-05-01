@@ -1,6 +1,5 @@
 function x_dot = EOMslevel(in)
 % Forces and Moments, and Equations of Motion (6-DOF)
-% Updated: Define V_dot properly and ensure x_dot dimension match
 
 % Preallocate output vector (10 states)
 x_dot = zeros(10,1);
