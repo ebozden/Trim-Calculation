@@ -1,7 +1,3 @@
-% powell_trim_optimization.m
-% Trim level flight using Powell's method + Golden Section line search
-% Requires EOMs.m in the MATLAB path (the aircraft equations of motion).
-
 function trim_powell_level()
     % Initial guess [Thrust (lbf); Elevator deflection (deg); Angle of attack (rad)]
     x0 = [2; 0; 0.1];    % Adjust these as needed
