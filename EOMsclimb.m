@@ -1,11 +1,8 @@
 function x_dot = EOMsclimb(in)
 % EOMsclimb: 6-DOF Equations of Motion for Steady Climb Trim
-% Gamma (flight path angle) is taken from input in(3)
-% Requires input vector in of length >=7:
 %   in(1)=Thrust (lbf), in(2)=Elevator deflection (deg), in(3)=gamma (rad),
 %   in(7)=alpha (rad)
 
-% Preallocate output vector (10 states)
 x_dot = zeros(10,1);
 
 % Inputs
