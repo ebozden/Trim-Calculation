@@ -8,7 +8,6 @@ function x_dot = EOMsturn(in)
 %   in(5) = Rudder deflection (deg)
 %   in(7) = Angle of attack alpha (rad)
 
-% Preallocate output vector (10 states)
 x_dot = zeros(10,1);
 
 % Unpack inputs
